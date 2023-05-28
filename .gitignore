@@ -1,0 +1,8 @@
+*.pyc
+/[]
+test.py
+test.ass
+__pycache__
+url_api.json
+.env
+url_apis.json
