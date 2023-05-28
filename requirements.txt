@@ -18,6 +18,7 @@ platformdirs==3.5.1
 pycparser==2.21
 Pygments==2.15.1
 pyOpenSSL==23.1.1
+python-dotenv==1.0.0
 requests==2.31.0
 rich==13.3.5
 tomli==2.0.1

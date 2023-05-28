@@ -5,9 +5,16 @@ import time
 import threading
 import argparse
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
-with open("url_api.json", "r", encoding="utf-8") as f:
+with open(
+    os.getenv("URLS_FILE") if os.getenv("URLS_FILE") else "url_api.json",
+    "r",
+    encoding="utf-8",
+) as f:
     url_api = json.load(f)
     global api_endpoints_all
     api_endpoints_all = []
