@@ -6,3 +6,5 @@ __pycache__
 url_api.json
 .env
 url_apis.json
+SRT_FILE/*
+test2.py

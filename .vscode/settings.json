@@ -1,1 +1,5 @@
-{"python.formatting.provider": "black","python.pythonPath": "srt_translate_with_GPT","editor.formatOnSave": true,}
+{
+    "python.formatting.provider": "black",
+    "python.pythonPath": "srt_translate_with_GPT",
+    "editor.formatOnSave": false,
+}
